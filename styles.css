@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+    background-color: rgb(190, 189, 189);
+    color: rgb(68, 36, 36);
+
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+a :visited {
+    color: rgb(227, 225, 225);
+}
+.avatar {
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.text-info {
+    margin-left: 40px;
+}
+
+.text-info h4 {
+    margin-bottom: 10px;
+}
+.info p {
+    color: rgb(17, 46, 46);
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+}
+.container {
+max-width: 750px;
+margin: auto;
+padding-top: 30px;
+}
+/*.social {
+    background-color: rgb(227, 247, 115);
+    padding: 15px;
+    border: 5px solid red;
+    border-bottom-style: dotted;
+    border-top-width: 15px;
+    margin: 5px;
+}*/
+.bg-yellow {
+    background: #fff9dc;
+}
+.bg-red {
+    background: #ffe5e5;
+}
+.bg-green {
+    background: #e5ffe7;
+}
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+.list {
+    padding: 0 20px;
+}
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+}
+.table td {
+padding-bottom: 10px;
+}
+.table td:nth-child(2), td:nth-child(3) {
+    color: #86898f;
+}
+.table tr:nth-child(odd) {
+    background: azure;
+}
+.contact h2{
+    text-align: center;
+}
+.form-group label {
+display: block;
+font-size: 14px;
+color: #86898f;
+}
+.form-group input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+width: 50%;
+margin-right: 20px;
+}
